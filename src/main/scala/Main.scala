@@ -4,7 +4,7 @@ object Main {
         val puzzle = Utils.readInput("puzzle.txt")
 
         println(Utils.sumWinningScores(puzzle))
-
+        println(Utils.sumWinningCards(puzzle))
     }
 
 }

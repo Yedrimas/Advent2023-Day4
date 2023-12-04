@@ -19,6 +19,15 @@ case class ExampleTest() extends AnyFunSpec with Matchers {
 
     }
 
+    describe("Given the input (part2)") {
+        val input = Utils.readInput("example.txt")
+
+        it("Should sum to 30"){
+            Utils.sumWinningCards(input) shouldEqual 30
+        }
+
+    }
+
 
 
 }
